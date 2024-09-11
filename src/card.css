@@ -1,0 +1,66 @@
+
+body{
+    background-color: black;
+}
+
+
+ .feature{
+font-size: 1.4rem;
+font-weight: 700;
+ }
+
+
+
+.list-features{
+    list-style: disc;
+    display: flex;
+    gap: 50px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+} 
+
+.list-img{
+    height: 150px;
+}
+
+
+.card{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.6), 0 8px 24px rgba(255, 255, 255, 0.4);
+}
+
+.inner-card{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    align-items: center;
+}
+
+.logo{
+    width: 400px;
+    display: block;
+}
+
+.title{
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+.heart{
+    align-self: flex-end;
+    transform: translate(-30px,-50px);
+    transition: width 0.3s ease-out;
+   
+}
+
